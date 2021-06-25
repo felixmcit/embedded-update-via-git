@@ -1,0 +1,88 @@
+Licenses
+
+The software in this repository is derived from example projects within NXP's SDK_2.7.0_EVK-MIMXRT1060. This file reproduces the corresponding copyright notices and licenses used therein, as requested per the SDK license agreement.
+
+SDK_Examples               Name: SDK examples                                
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: license-COPYING-BSD-3.txt                      
+                           Format: source code, binary, project files, linker
+                           files                                             
+                           Description: SDK out of box examples to show how  
+                           to use peripheral drivers and integrate           
+                           middleware.                                       
+                           Location in SDK: boards/<board>/                         
+                           Origin: NXP (BSD-3-Clause)
+
+KSDK_Peripheral_Driver     Description: Peripheral drivers are designed for  
+                           the most common use cases identified for the      
+                           underlying hardware block.                        
+                           Author: Freescale                                 
+                           Version: 2.x.x                                    
+                           License: Open Source - BSD-3-Clause               
+                           Format: source code                               
+                           name: KSDK Peripheral Driver                      
+                           Location in SDK: devices/<device>/drivers
+
+cmsiscore                  Author: ARM                                       
+                           parentversion: 5.1.1                              
+                           URL:                                              
+                           https://github.com/ARM-software/CMSIS_5/releases/t
+                           ag/5.3.0                                          
+                           name: CMSIS Core header files                     
+                           Format: source code                               
+                           License: Apache License 2.0, See license-apache2.txt
+                           Location in SDK: CMSIS/Include                           
+                           version: 5.1.1 (CMSIS Download 5.3.0)             
+                           Description: Industry-standard header files       
+                           distributes by ARM for cortex-M cores 
+
+Amazon_FreeRTOS            Author: Real Time Engineers, Ltd.                 
+                           Description: IoT operating system for             
+                           microcontrollers                                  
+                           Format: source code                               
+                           License: MIT. See license-freertos.txt.       
+                           Location in SDK: rtos/amazon-freertos                    
+                           name: Amazon FreeRTOS                             
+                           URL: https://aws.amazon.com/freertos/             
+                           version: 201908.00.0                              
+
+FreeRTOS_heap_newlib       Author: Dave Nadler, Nadler & Associates          
+                           Consulting                                        
+                           Description: Newlib allocator for FreeRTOS        
+                           Format: source code                               
+                           License: Open Source - BSD-3-Clause               
+                           Location in SDK:                                         
+                           rtos/amazon-freertos/freertos_kernel/portable/MemM
+                           ang                                               
+                           name: Amazon FreeRTOS                             
+                           URL:                                              
+                           http://www.nadler.com/embedded/newlibAndFreeRTOS.h
+                           tml                                               
+                           version: 1.0.0 
+
+Bootloader Source          Description: Software drivers for Bootloaders and 
+                           Flashloaders                                      
+                           Author: Freescale                                 
+                           License: Open Source - BSD-3-Clause               
+                           Format: source code                               
+                           Location in SDK: middleware/mcu-boot      
+
+ELFtoSB - MBED TLS stack   Description: Cryptographic and SSL/TLS Library    
+                           Author: ARM                                       
+                           License: Apache-2.0                               
+                           name: MBED TLS stack                              
+                           URL: https://tls.mbed.org/                        
+                           version: 2.6.0                                    
+                           Format: source code                               
+                           Location in SDK:                                         
+                           middleware/mcu-boot/tools/tools/elftosb/mbedtls   
+
+lwip                       Author: Swedish Institute of Computer Science     
+                           Description: A light-weight TCP/IP stack          
+                           Format: source code                               
+                           License: Open Source - BSD-3-Clause               
+                           Location in SDK: middleware/lwip                         
+                           name: lwIP TCP/IP Stack                           
+                           URL: http://savannah.nongnu.org/projects/lwip     
+                           version: 2.1.2   
